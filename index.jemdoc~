@@ -1,4 +1,5 @@
 # jemdoc: menu{MENU}{index.html}
+# jemdoc: nofooter
 
 = Shaoning Han
 ~~~

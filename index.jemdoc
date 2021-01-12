@@ -1,5 +1,7 @@
 # jemdoc: menu{MENU}{index.html}
 # jemdoc: nofooter
+# jemdoc: addcss{jemdoc.css}
+# jemdoc: addcss{bibtex.css}
 
 = Shaoning Han
 ~~~
@@ -11,13 +13,15 @@ University of Southern California\n
 ~~~
 
 == BIO
-Shaoning is currently a 4th year Ph.D. student under the supervision of Professor [https://sites.google.com/usc.edu/gomez/ Andres Gomez]. Shaoning received his B.S in Mathematics from [math.ustc.edu.cn/ENGLISH University of Science and Technology of China (USTC)]. He is expected to obtain his Ph.D. in Industrial Engineering in 2021. Shaoning's research is focused on  nonlinear optimization  and mixed-integer programming.
+Shaoning is currently a 4th year Ph.D. student under the supervision of Professor [https://sites.google.com/usc.edu/gomez/ Andres Gomez]. Shaoning received his B.S in Mathematics from [https://math.ustc.edu.cn/ENGLISH University of Science and Technology of China (USTC)]. He is expected to obtain his Ph.D. in Industrial Engineering in 2021. Shaoning's research is focused on  nonlinear optimization  and mixed-integer programming.
 
 == Contact
 *Email*: shaoning@usc.edu\n
-*Web*: [https://shaoninghan.github.io] 
+*Web*: [https://shaoninghan.github.io]\n 
+*Office*: 340 Olin Hall, 3650 McClintock Avenue, Los Angeles, CA 90089
 
 == Publication
+
 
 == Teaching
 
@@ -68,3 +72,6 @@ Plain code block with no title.
 ~~~
 
 You might need 2--3 different-sized dashes---they can be useful. Now we're done!
+
+
+#includeraw{pubList.html}

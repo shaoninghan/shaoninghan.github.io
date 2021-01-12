@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title></title>
+</head>
+<body>
+<div id="layout-content">
+<p><a href="bodystart">bodystart</a>
+&lt;script type=&ldquo;text<i>javascript&rdquo;&gt;
+&lt;!&ndash;
+</i>/ Toggle Display of BibTeX
+function toggleBibtex(articleid) {
+var bib = document.getElementById('bib_&rsquo;+articleid);
+if (bib) {
+if(bib.className.indexOf('bibtex&rsquo;) != -1) {
+bib.className.indexOf('noshow&rsquo;) == -1?bib.className = 'bibtex noshow&rsquo;:bib.className = 'bibtex&rsquo;;
+}		
+} else { 
+return;
+}
+}</p>
