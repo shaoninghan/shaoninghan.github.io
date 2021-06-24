@@ -24,3 +24,8 @@ div.bibtex {
 	line-height: 0.75em;
 }
 div.bibtex pre { font-size: 75%; overflow: auto;  width: 100%; }
+div.abstract {
+	margin-bottom: 1.0em;
+	font-size: 100%;
+        font-family:SimSun
+}

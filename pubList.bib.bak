@@ -15,7 +15,7 @@
   title     = {2x2 convexifications for convex quadratic optimization with indicator variables},
   year      = {2020},
   abstract  = {In this paper, we study the convex quadratic optimization problem with indicator variables. For the bivariate case, we describe the convex hull of the epigraph in the original space of variables, and also give a conic quadratic extended formulation. Then, using the convex hull description for the bivariate case as a building block, we derive an extended SDP relaxation for the general case. This new formulation is stronger than other SDP relaxations proposed in the literature for the problem, including Shor's SDP relaxation, the optimal perspective relaxation as well as the optimal rank-one relaxation. Computational experiments indicate that the proposed formulations are quite effective in reducing the integrality gap of the optimization problems.},
-  slide     = {slides/informs2020.pdf},
+  slides    = {slides/informs2020.pdf},
   timestamp = {2020},
   url       = {https://arxiv.org/abs/2004.07448},
 }
