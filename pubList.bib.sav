@@ -1,0 +1,58 @@
+% Encoding: ISO-8859-1
+
+@Article{he2021comparing,
+  author    = {He, Ziyu and Han, Shaoning and G{\'o}mez, Andr{\'e}s and Cui, Ying and Pang, Jong-Shi},
+  title     = {Comparing Solution Paths of Sparse Quadratic Minimization with a Stieltjes Matrix},
+  year      = {2021},
+  abstract  = {This paper studies several solution paths of sparse quadratic minimization problems as a function of the weighing parameter of the bi-objective of estimation loss versus solution sparsity. Three such paths are considered: the "L0-path" where the discontinuous L0-function provides the exact sparsity count; the "L1-path" where the L1-function provides a convex surrogate of sparsity count; and the "capped L1-path" where the nonconvex nondifferentiable capped L1-function aims to enhance the L1-approximation. Serving different purposes, each of these three formulations is different from each other, both analytically and computationally. Our results deepen the understanding of (old and new)properties of the associated paths, highlight the pros, cons, and tradeoffs of these sparse optimization models, and provide numerical evidence to support the practical superiority of the capped L1-path. Our study of the capped L1-path is the first of its kind as the path pertains to computable directionally stationary (= strongly locally minimizing in this context, as opposed to globally optimal) solutions of a parametric nonconvex nondifferentiable optimization problem. Motivated by classical parametric quadratic programming theory and reinforced by modern statistical learning studies, both casting an exponential perspective in fully describing such solution paths, we also aim to address the question of whether some of them can be fully traced in strongly polynomial time in the problem dimensions. A major conclusion of this paper is that a path of directional stationary solutions of the capped L1-regularized problem offers interesting theoretical properties and practical compromise between the L0-path and the L1-path. Indeed, while the L0-path is computationally prohibitive and greatly handicapped by the repeated solution of mixed integer nonlinear programs, the quality of L1-path, in terms of the two criteria---loss and sparsity--- in the estimation objective, is inferior to the capped L1-path; the latter can be obtained efficiently by a combination of a parametric pivoting-like scheme supplemented by an algorithm that takes advantage of the Z-matrix structure of the loss function.},
+  timestamp = {202102},
+  url       = {http://www.optimization-online.org/DB_HTML/2021/09/8608.html},
+}
+
+@Article{han2021single,
+  author    = {Han, Shaoning and G{\'o}mez, Andr{\'e}s},
+  title     = {Single-neuron convexifications for binarized neural networks},
+  year      = {2021},
+  abstract  = {Binarized neural networks are an important class of neural network in deep learning due to their computational efficiency. This paper contributes towards a better understanding of the structure of binarized neural networks, specifically, ideal convex representations of the activation functions used. We describe the convex hull of the graph of the signum activation function associated with a single neuron, deriving closed forms for the convex and concave envelopes that improve upon those used in the literature. The new formulations lead to improved methods to verify the robustness of a binarized neural network via convex optimization.},
+  timestamp = {202101},
+  url       = {http://www.optimization-online.org/DB_HTML/2021/05/8419.html},
+}
+
+@Article{han20202x2,
+  author    = {Han, Shaoning and G{\'o}mez, Andr{\'e}s and Atamt{\"u}rk, Alper},
+  journal   = {Mathematical Programming, under revision},
+  title     = {2x2 convexifications for convex quadratic optimization with indicator variables},
+  year      = {2020},
+  abstract  = {In this paper, we study the convex quadratic optimization problem with indicator variables. For the bivariate case, we describe the convex hull of the epigraph in the original space of variables, and also give a conic quadratic extended formulation. Then, using the convex hull description for the bivariate case as a building block, we derive an extended SDP relaxation for the general case. This new formulation is stronger than other SDP relaxations proposed in the literature for the problem, including Shor's SDP relaxation, the optimal perspective relaxation as well as the optimal rank-one relaxation. Computational experiments indicate that the proposed formulations are quite effective in reducing the integrality gap of the optimization problems.},
+  slide     = {slides/informs2020.pdf},
+  timestamp = {2020},
+  url       = {https://arxiv.org/abs/2004.07448},
+}
+
+@Article{han2019fractional,
+  author    = {Han, Shaoning and G{\'o}mez, Andr{\'e}s and Prokopyev, Oleg A},
+  journal   = {Journal of Global Optimization, under revision},
+  title     = {Fractional 0-1 programming and submodularity},
+  year      = {2019},
+  abstract  = {In this note we study multiple-ratio fractional 0--1 programs, a broad class of NP-hard combinatorial optimization problems. In particular, under some relatively mild assumptions we provide a complete characterization of the conditions, which ensure that a single-ratio function is submodular. Then we illustrate our theoretical results with the assortment optimization and facility location problems, and discuss practical situations that guarantee submodularity in the considered application settings. In such cases, near-optimal solutions for multiple-ratio fractional 0--1 programs can be found via simple greedy algorithms.},
+  slide     = {slides/informs2021.pdf},
+  timestamp = {2019},
+  url       = {https://arxiv.org/abs/2012.07235},
+}
+
+@Article{atamturk2021sparse,
+  author    = {Atamt{\"u}rk, Alper and Gomez, Andres and Han, Shaoning},
+  journal   = {Journal of Machine Learning Research},
+  title     = {Sparse and smooth signal estimation: Convexification of l0-formulations},
+  year      = {2021},
+  number    = {52},
+  pages     = {1--43},
+  volume    = {22},
+  abstract  = {Signal estimation problems with smoothness and sparsity priors can be naturally modeled as quadratic optimization with l_0-``norm" constraints. Since such problems are non-convex and hard-to-solve, the standard approach is, instead, to tackle their convex surrogates based on l_1-norm relaxations. In this paper, we propose new iterative conic quadratic relaxations that exploit not only the l_0-``norm" terms, but also the fitness and smoothness functions. The iterative convexification approach substantially closes the gap between the l_0-``norm" and its l_1 surrogate. Experiments using an off-the-shelf conic quadratic solver on synthetic as well as real datasets indicate that the proposed iterative convex relaxations lead to significantly better estimators than l_1-norm while preserving the computational efficiency. In addition, the parameters of the model and the resulting estimators are easily interpretable.},
+  timestamp = {2018},
+  url       = {https://www.jmlr.org/papers/volume22/18-745/18-745.pdf},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
+
+@Comment{jabref-meta: saveOrderConfig:specified;timestamp;true;year;false;title;false;}
