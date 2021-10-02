@@ -1,8 +1,9 @@
+# jemdoc: menu{MENU}{index.html}
 # jemdoc: nofooter
 # jemdoc: addcss{jemdoc.css}
 # jemdoc: addcss{bibtex.css}
-
 = Shaoning Han
+
 ~~~
 {}{img_left}{image.jpg}{Image}{350}
 Ph.D. Student\n
@@ -19,5 +20,3 @@ Shaoning is currently a Ph.D. candidate under the supervision of Professor [http
 *Web*: [https://shaoninghan.github.io]\n 
 *Office*: 340 Olin Hall, 3650 McClintock Avenue, Los Angeles, CA 90089
 
-== Publication
-#includeraw{pubList.html}
