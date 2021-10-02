@@ -1,0 +1,6 @@
+# jemdoc: menu{MENU}{index.html}
+# jemdoc: nofooter
+# jemdoc: addcss{jemdoc.css}
+# jemdoc: addcss{bibtex.css}
+= Publication
+#includeraw{pubList.html}
