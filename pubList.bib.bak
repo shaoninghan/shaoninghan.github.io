@@ -1,8 +1,17 @@
 % Encoding: ISO-8859-1
 
+@Article{han2021compact,
+  author    = {Han, Shaoning and G{\'o}mez, Andr{\'e}s},
+  title     = {Compact extended formulations for low-rank functions with indicator variables},
+  year      = {2021},
+  abstract  = {We study the mixed-integer epigraph of a low-rank convex function with non-convex indicator constraints, which are often used to impose logical constraints on the support of the solutions. Extended formulations describing the convex hull of such sets can easily be constructed via disjunctive programming, although a direct application of this method often yields prohibitively large formulations, whose size is exponential in the number of variables. In this paper, we propose a new disjunctive representation of the sets under study, which leads to compact formulations with size exponential in the rank of the function, but polynomial in the number of variables. Moreover, we show how to project out the additional variables for the case of rank-one functions, recovering or generalizing known results for the convex hulls of such sets (in the original space of variables).},
+  timestamp = {202110},
+  url       = {https://arxiv.org/abs/2110.14884},
+}
+
 @Article{he2021comparing,
   author    = {He, Ziyu and Han, Shaoning and G{\'o}mez, Andr{\'e}s and Cui, Ying and Pang, Jong-Shi},
-  title     = {Comparing Solution Paths of Sparse Quadratic Minimization with a Stieltjes Matrix},
+  title     = {Comparing Solution Paths of Sparse Quadratic Minimization with a {S}tieltjes Matrix},
   year      = {2021},
   abstract  = {This paper studies several solution paths of sparse quadratic minimization problems as a function of the weighing parameter of the bi-objective of estimation loss versus solution sparsity. Three such paths are considered: the "L0-path" where the discontinuous L0-function provides the exact sparsity count; the "L1-path" where the L1-function provides a convex surrogate of sparsity count; and the "capped L1-path" where the nonconvex nondifferentiable capped L1-function aims to enhance the L1-approximation. Serving different purposes, each of these three formulations is different from each other, both analytically and computationally. Our results deepen the understanding of (old and new)properties of the associated paths, highlight the pros, cons, and tradeoffs of these sparse optimization models, and provide numerical evidence to support the practical superiority of the capped L1-path. Our study of the capped L1-path is the first of its kind as the path pertains to computable directionally stationary (= strongly locally minimizing in this context, as opposed to globally optimal) solutions of a parametric nonconvex nondifferentiable optimization problem. Motivated by classical parametric quadratic programming theory and reinforced by modern statistical learning studies, both casting an exponential perspective in fully describing such solution paths, we also aim to address the question of whether some of them can be fully traced in strongly polynomial time in the problem dimensions. A major conclusion of this paper is that a path of directional stationary solutions of the capped L1-regularized problem offers interesting theoretical properties and practical compromise between the L0-path and the L1-path. Indeed, while the L0-path is computationally prohibitive and greatly handicapped by the repeated solution of mixed integer nonlinear programs, the quality of L1-path, in terms of the two criteria---loss and sparsity--- in the estimation objective, is inferior to the capped L1-path; the latter can be obtained efficiently by a combination of a parametric pivoting-like scheme supplemented by an algorithm that takes advantage of the Z-matrix structure of the loss function.},
   timestamp = {202110},
@@ -14,7 +23,7 @@
   title     = {Single-neuron convexifications for binarized neural networks},
   year      = {2021},
   abstract  = {Binarized neural networks are an important class of neural network in deep learning due to their computational efficiency. This paper contributes towards a better understanding of the structure of binarized neural networks, specifically, ideal convex representations of the activation functions used. We describe the convex hull of the graph of the signum activation function associated with a single neuron, deriving closed forms for the convex and concave envelopes that improve upon those used in the literature. The new formulations lead to improved methods to verify the robustness of a binarized neural network via convex optimization.},
-  timestamp = {202101},
+  timestamp = {202105},
   url       = {http://www.optimization-online.org/DB_HTML/2021/05/8419.html},
 }
 
