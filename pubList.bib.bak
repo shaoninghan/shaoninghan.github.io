@@ -1,14 +1,23 @@
 % Encoding: ISO-8859-1
 
+@Article{pang2021,
+  author    = {Pang, Jong-Shi and Han, Shaning},
+  journal   = {Submitted to SIAM Journal on Optimization},
+  title     = {Some Strongly Polynomially Solvable Convex Quadratic Programs with Bounded Variables},
+  year      = {2021},
+  abstract  = {This paper begins with a class of convex quadratic programs (QPs) with bounded variables solvable by the parametric principal pivoting algorithm with $\mathcal{O}(n^3)$ strongly polynomial complexity, where $n$ is the number of variables of the
+problem. Extension of the Hessian class is also discussed. Our research is motivated by a preprint [7] wherein the efficient solution of a quadratic program with a tridiagonal Hessian matrix in the quadratic objective is needed for the construction of a polynomial-time algorithm for solving an associated sparse variable selection problem. With the tridiagonal structure, the complexity of the QP algorithm reduces to $\mathcal{O}(n^2)$. Our strongly polynomiality results extend previous works of some strongly
+polynomially solvable linear complementarity problems with a P-matrix [9]; special cases of the extended results include weakly quasi-diagonally dominant problems in addition to the tridiagonal ones.},
+  timestamp = {202112},
+  url       = {http://www.optimization-online.org/DB_HTML/2021/12/8713.html},
+}
+
 @Article{han2021equiv,
   author    = {Han, Shaoning and G{\'o}mez, Andr{\'e}s and Atamt{\"u}rk, Alper},
   journal   = {Submitted to Operations Research Letters},
   title     = {The equivalence of optimal perspective formulation and Shor's SDP for quadratic programs with indicator variables},
   year      = {2021},
-  abstract  = {In this paper, we compare the strength of the optimal perspective
-reformulation and Shor's SDP relaxation. We prove these two
-formulations are equivalent for quadratic optimization problems with
-indicator variables.},
+  abstract  = {In this paper, we compare the strength of the optimal perspective reformulation and Shor's SDP relaxation. We prove these two formulations are equivalent for quadratic optimization problems with indicator variables.},
   timestamp = {202111},
 }
 
