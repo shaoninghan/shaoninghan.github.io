@@ -1,6 +1,6 @@
 % Encoding: ISO-8859-1
 
-@Article{pang2021,
+@Article{pang2021some,
   author    = {Pang, Jong-Shi and Han, Shaning},
   journal   = {Submitted to SIAM Journal on Optimization},
   title     = {Some Strongly Polynomially Solvable Convex Quadratic Programs with Bounded Variables},
