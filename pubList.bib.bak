@@ -17,6 +17,7 @@
   year      = {2021},
   abstract  = {In this paper, we compare the strength of the optimal perspective reformulation and Shor's SDP relaxation. We prove these two formulations are equivalent for quadratic optimization problems with indicator variables.},
   timestamp = {202111},
+  url       = {http://www.optimization-online.org/DB_HTML/2021/12/8717.html},
 }
 
 @Article{han2021compact,
