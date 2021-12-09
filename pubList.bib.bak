@@ -1,6 +1,6 @@
 % Encoding: ISO-8859-1
 
-@Article{pang2021,
+@Article{pang2021some,
   author    = {Pang, Jong-Shi and Han, Shaning},
   journal   = {Submitted to SIAM Journal on Optimization},
   title     = {Some Strongly Polynomially Solvable Convex Quadratic Programs with Bounded Variables},
@@ -12,7 +12,7 @@
 
 @Article{han2021equiv,
   author    = {Han, Shaoning and G{\'o}mez, Andr{\'e}s and Atamt{\"u}rk, Alper},
-  journal   = {Submitted to Operations Research Letters},
+  journal   = {Operations Research Letters, , under minor revision},
   title     = {The equivalence of optimal perspective formulation and Shor's SDP for quadratic programs with indicator variables},
   year      = {2021},
   abstract  = {In this paper, we compare the strength of the optimal perspective reformulation and Shor's SDP relaxation. We prove these two formulations are equivalent for quadratic optimization problems with indicator variables.},
