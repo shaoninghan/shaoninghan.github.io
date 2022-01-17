@@ -7,7 +7,7 @@
   year      = {2021},
   abstract  = {This paper begins with a class of convex quadratic programs (QPs) with bounded variables solvable by the parametric principal pivoting algorithm with $\mathcal{O}(n^3)$ strongly polynomial complexity, where $n$ is the number of variables of the problem. Extension of the Hessian class is also discussed. Our research is motivated by a preprint [7] wherein the efficient solution of a quadratic program with a tridiagonal Hessian matrix in the quadratic objective is needed for the construction of a polynomial-time algorithm for solving an associated sparse variable selection problem. With the tridiagonal structure, the complexity of the QP algorithm reduces to $\mathcal{O}(n^2)$. Our strongly polynomiality results extend previous works of some strongly polynomially solvable linear complementarity problems with a P-matrix [9]; special cases of the extended results include weakly quasi-diagonally dominant problems in addition to the tridiagonal ones.},
   timestamp = {202112},
-  url       = {http://www.optimization-online.org/DB_HTML/2021/12/8713.html},
+  url       = {https://arxiv.org/abs/2112.03886},
 }
 
 @Article{han2021equiv,
@@ -17,7 +17,7 @@
   year      = {2021},
   abstract  = {In this paper, we compare the strength of the optimal perspective reformulation and Shor's SDP relaxation. We prove these two formulations are equivalent for quadratic optimization problems with indicator variables.},
   timestamp = {202111},
-  url       = {http://www.optimization-online.org/DB_HTML/2021/12/8717.html},
+  url       = {https://arxiv.org/abs/2112.04618},
 }
 
 @Article{han2021compact,
@@ -63,7 +63,7 @@
 
 @Article{han2019fractional,
   author    = {Han, Shaoning and G{\'o}mez, Andr{\'e}s and Prokopyev, Oleg A},
-  journal   = {Journal of Global Optimization, conditionally accepted},
+  journal   = {Journal of Global Optimization, accepted},
   title     = {Fractional 0-1 programming and submodularity},
   year      = {2019},
   abstract  = {In this note we study multiple-ratio fractional 0--1 programs, a broad class of NP-hard combinatorial optimization problems. In particular, under some relatively mild assumptions we provide a complete characterization of the conditions, which ensure that a single-ratio function is submodular. Then we illustrate our theoretical results with the assortment optimization and facility location problems, and discuss practical situations that guarantee submodularity in the considered application settings. In such cases, near-optimal solutions for multiple-ratio fractional 0--1 programs can be found via simple greedy algorithms.},
