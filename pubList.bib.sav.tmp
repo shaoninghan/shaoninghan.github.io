@@ -1,5 +1,3 @@
-% Encoding: ISO-8859-1
-
 @Article{pang2021some,
   author    = {Pang, Jong-Shi and Han, Shaning},
   journal   = {Submitted to SIAM Journal on Optimization},
@@ -12,7 +10,7 @@
 
 @Article{han2021equiv,
   author    = {Han, Shaoning and G{\'o}mez, Andr{\'e}s and Atamt{\"u}rk, Alper},
-  journal   = {Operations Research Letters, under minor revision},
+  journal   = {Operations Research Letters, accepted},
   title     = {The equivalence of optimal perspective formulation and Shor's SDP for quadratic programs with indicator variables},
   year      = {2021},
   abstract  = {In this paper, we compare the strength of the optimal perspective reformulation and Shor's SDP relaxation. We prove these two formulations are equivalent for quadratic optimization problems with indicator variables.},
@@ -64,27 +62,4 @@
 @Article{han2019fractional,
   author    = {Han, Shaoning and G{\'o}mez, Andr{\'e}s and Prokopyev, Oleg A},
   journal   = {Journal of Global Optimization, accepted},
-  title     = {Fractional 0-1 programming and submodularity},
-  year      = {2019},
-  abstract  = {In this note we study multiple-ratio fractional 0--1 programs, a broad class of NP-hard combinatorial optimization problems. In particular, under some relatively mild assumptions we provide a complete characterization of the conditions, which ensure that a single-ratio function is submodular. Then we illustrate our theoretical results with the assortment optimization and facility location problems, and discuss practical situations that guarantee submodularity in the considered application settings. In such cases, near-optimal solutions for multiple-ratio fractional 0--1 programs can be found via simple greedy algorithms.},
-  slide     = {slides/informs2021.pdf},
-  timestamp = {2019},
-  url       = {https://arxiv.org/abs/2012.07235},
-}
-
-@Article{atamturk2021sparse,
-  author    = {Atamt{\"u}rk, Alper and G{\'o}mez, Andr{\'e}s and Han, Shaoning},
-  journal   = {Journal of Machine Learning Research},
-  title     = {Sparse and smooth signal estimation: Convexification of l0-formulations},
-  year      = {2021},
-  number    = {52},
-  pages     = {1--43},
-  volume    = {22},
-  abstract  = {Signal estimation problems with smoothness and sparsity priors can be naturally modeled as quadratic optimization with l_0-``norm" constraints. Since such problems are non-convex and hard-to-solve, the standard approach is, instead, to tackle their convex surrogates based on l_1-norm relaxations. In this paper, we propose new iterative conic quadratic relaxations that exploit not only the l_0-``norm" terms, but also the fitness and smoothness functions. The iterative convexification approach substantially closes the gap between the l_0-``norm" and its l_1 surrogate. Experiments using an off-the-shelf conic quadratic solver on synthetic as well as real datasets indicate that the proposed iterative convex relaxations lead to significantly better estimators than l_1-norm while preserving the computational efficiency. In addition, the parameters of the model and the resulting estimators are easily interpretable.},
-  timestamp = {2018},
-  url       = {https://www.jmlr.org/papers/volume22/18-745/18-745.pdf},
-}
-
-@Comment{jabref-meta: databaseType:bibtex;}
-
-@Comment{jabref-meta: saveOrderConfig:specified;timestamp;true;year;false;title;false;}
+  title     = {F
