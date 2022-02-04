@@ -10,12 +10,15 @@
 
 @Article{han2021equiv,
   author    = {Han, Shaoning and G{\'o}mez, Andr{\'e}s and Atamt{\"u}rk, Alper},
-  journal   = {Operations Research Letters, accepted},
+  journal   = {Operations Research Letters},
   title     = {The equivalence of optimal perspective formulation and Shor's SDP for quadratic programs with indicator variables},
-  year      = {2021},
+  year      = {2022},
+  issn      = {0167-6377},
   abstract  = {In this paper, we compare the strength of the optimal perspective reformulation and Shor's SDP relaxation. We prove these two formulations are equivalent for quadratic optimization problems with indicator variables.},
+  doi       = {https://doi.org/10.1016/j.orl.2022.01.007},
+  keywords  = {Mixed-integer quadratic optimization, Semidefinite programming, Perspective formulation, Indicator variables, Convexification},
   timestamp = {202111},
-  url       = {https://arxiv.org/abs/2112.04618},
+  url       = {https://www.sciencedirect.com/science/article/pii/S0167637722000141},
 }
 
 @Article{han2021compact,
@@ -55,11 +58,4 @@
   year      = {2020},
   abstract  = {In this paper, we study the convex quadratic optimization problem with indicator variables. For the bivariate case, we describe the convex hull of the epigraph in the original space of variables, and also give a conic quadratic extended formulation. Then, using the convex hull description for the bivariate case as a building block, we derive an extended SDP relaxation for the general case. This new formulation is stronger than other SDP relaxations proposed in the literature for the problem, including Shor's SDP relaxation, the optimal perspective relaxation as well as the optimal rank-one relaxation. Computational experiments indicate that the proposed formulations are quite effective in reducing the integrality gap of the optimization problems.},
   slide     = {slides/informs2020.pdf},
-  timestamp = {2020},
-  url       = {https://arxiv.org/abs/2004.07448},
-}
-
-@Article{han2019fractional,
-  author    = {Han, Shaoning and G{\'o}mez, Andr{\'e}s and Prokopyev, Oleg A},
-  journal   = {Journal of Global Optimization},
-  title     = {Fractional 
+  time
