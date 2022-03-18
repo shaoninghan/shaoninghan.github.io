@@ -10,12 +10,18 @@
 
 @Article{han2021equiv,
   author    = {Han, Shaoning and G{\'o}mez, Andr{\'e}s and Atamt{\"u}rk, Alper},
-  journal   = {Operations Research Letters, accepted},
   title     = {The equivalence of optimal perspective formulation and Shor's SDP for quadratic programs with indicator variables},
-  year      = {2021},
+  journal = {Operations Research Letters},
+  volume = {50},
+  number = {2},
+  pages = {195-198},
+  year      = {2022},
+  issn      = {0167-6377},
   abstract  = {In this paper, we compare the strength of the optimal perspective reformulation and Shor's SDP relaxation. We prove these two formulations are equivalent for quadratic optimization problems with indicator variables.},
+  doi       = {https://doi.org/10.1016/j.orl.2022.01.007},
+  keywords  = {Mixed-integer quadratic optimization, Semidefinite programming, Perspective formulation, Indicator variables, Convexification},
   timestamp = {202111},
-  url       = {https://arxiv.org/abs/2112.04618},
+  url       = {https://www.sciencedirect.com/science/article/pii/S0167637722000141},
 }
 
 @Article{han2021compact,
