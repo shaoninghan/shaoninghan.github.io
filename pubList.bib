@@ -1,6 +1,26 @@
+@Article{han2022polynomial,
+  author    = {Han, Shaoning and G{\'o}mez, Andr{\'e}s and Pang, Jong-Shi},
+  journal   = {Submitted},
+  title     = {On polynomial-time solvability of combinatorial Markov random fields},
+  year      = {2022},
+  abstract  = {The problem of inferring Markov random fields (MRFs) with a sparsity or robustness prior can be naturally modeled as a mixed-integer program. This motivates us to study a general class of convex submodular optimization problems with indicator variables, which we show to be polynomially solvable in this paper. The key insight is that, possibly after a suitable reformulation, indicator constraints preserve submodularity. Fast computations of the associated Lov\'asz extensions are also discussed under certain smoothness conditions, and can be implemented using only linear-algebraic operations in the case of quadratic objectives.},
+  slide     = {slides/informs2022.pdf},
+  timestamp = {202209},
+  url       = {https://arxiv.org/abs/2209.13161},
+}
+
+@Article{han2022continuous,
+  author    = {Han, Shaoning and Pang, Jong-Shi},
+  journal   = {Submitted},
+  title     = {Continuous Selections of Solutions to Parametric Variational Inequalities},
+  year      = {2022},
+  abstract  = {This paper studies the existence of a (Lipschitz) continuous (single-valued) solution function of parametric variational inequalities under functional and constraint perturbations. At the most elementary level, this issue can be explained from classical parametric linear programming and its resolution by the parametric simplex method, which computes a solution trajectory of the problem when the objective coefficients and the right-hand sides of the constraints are parameterized by a single scalar parameter. The computed optimal solution vector (and not the optimal objective value) is a continuous piecewise affine function in the parameter when the objective coefficients are kept constant, whereas the computed solution vector can be discontinuous when the right-hand constraint coefficients are kept fixed and there is a basis change at a critical value of the parameter in the objective. We investigate this issue more broadly first in the context of an affine variational inequality (AVI) and obtain results that go beyond those pertaining to the lower semicontinuity of the solution map with joint vector perturbations; the latter property is closely tied to a stability theory of a parametric AVI and in particular to Robinson's seminal concept of strong regularity. Extensions to nonlinear variational inequalities is also investigated without requiring solution uniqueness (and therefore applicable to non-strongly regular problems). The role of solution uniqueness in this issue of continuous single-valued solution selection is further clarified.},
+  timestamp = {202208},
+}
+
 @Article{pang2021some,
-  author    = {Pang, Jong-Shi and Han, Shaning},
-  journal   = {Submitted to SIAM Journal on Optimization},
+  author    = {Pang, Jong-Shi and Han, Shaoning},
+  journal   = {Submitted},
   title     = {Some Strongly Polynomially Solvable Convex Quadratic Programs with Bounded Variables},
   year      = {2021},
   abstract  = {This paper begins with a class of convex quadratic programs (QPs) with bounded variables solvable by the parametric principal pivoting algorithm with $\mathcal{O}(n^3)$ strongly polynomial complexity, where $n$ is the number of variables of the problem. Extension of the Hessian class is also discussed. Our research is motivated by a preprint [7] wherein the efficient solution of a quadratic program with a tridiagonal Hessian matrix in the quadratic objective is needed for the construction of a polynomial-time algorithm for solving an associated sparse variable selection problem. With the tridiagonal structure, the complexity of the QP algorithm reduces to $\mathcal{O}(n^2)$. Our strongly polynomiality results extend previous works of some strongly polynomially solvable linear complementarity problems with a P-matrix [9]; special cases of the extended results include weakly quasi-diagonally dominant problems in addition to the tridiagonal ones.},
@@ -27,17 +47,18 @@
 
 @Article{han2021compact,
   author    = {Han, Shaoning and G{\'o}mez, Andr{\'e}s},
-  journal   = {Submitted to Mathematics of Operations Research},
+  journal   = {Submitted},
   title     = {Compact extended formulations for low-rank functions with indicator variables},
   year      = {2021},
   abstract  = {We study the mixed-integer epigraph of a low-rank convex function with non-convex indicator constraints, which are often used to impose logical constraints on the support of the solutions. Extended formulations describing the convex hull of such sets can easily be constructed via disjunctive programming, although a direct application of this method often yields prohibitively large formulations, whose size is exponential in the number of variables. In this paper, we propose a new disjunctive representation of the sets under study, which leads to compact formulations with size exponential in the rank of the function, but polynomial in the number of variables. Moreover, we show how to project out the additional variables for the case of rank-one functions, recovering or generalizing known results for the convex hulls of such sets (in the original space of variables).},
+  slide     = {slides/iccopt2022.pdf},
   timestamp = {202110},
   url       = {https://arxiv.org/abs/2110.14884},
 }
 
 @Article{he2021comparing,
   author    = {He, Ziyu and Han, Shaoning and G{\'o}mez, Andr{\'e}s and Cui, Ying and Pang, Jong-Shi},
-  journal   = {Submitted to Mathematical Programming},
+  journal   = {Submitted},
   title     = {Comparing solution paths of sparse quadratic minimization with a {S}tieltjes matrix},
   year      = {2021},
   abstract  = {This paper studies several solution paths of sparse quadratic minimization problems as a function of the weighing parameter of the bi-objective of estimation loss versus solution sparsity. Three such paths are considered: the "L0-path" where the discontinuous L0-function provides the exact sparsity count; the "L1-path" where the L1-function provides a convex surrogate of sparsity count; and the "capped L1-path" where the nonconvex nondifferentiable capped L1-function aims to enhance the L1-approximation. Serving different purposes, each of these three formulations is different from each other, both analytically and computationally. Our results deepen the understanding of (old and new)properties of the associated paths, highlight the pros, cons, and tradeoffs of these sparse optimization models, and provide numerical evidence to support the practical superiority of the capped L1-path. Our study of the capped L1-path is the first of its kind as the path pertains to computable directionally stationary (= strongly locally minimizing in this context, as opposed to globally optimal) solutions of a parametric nonconvex nondifferentiable optimization problem. Motivated by classical parametric quadratic programming theory and reinforced by modern statistical learning studies, both casting an exponential perspective in fully describing such solution paths, we also aim to address the question of whether some of them can be fully traced in strongly polynomial time in the problem dimensions. A major conclusion of this paper is that a path of directional stationary solutions of the capped L1-regularized problem offers interesting theoretical properties and practical compromise between the L0-path and the L1-path. Indeed, while the L0-path is computationally prohibitive and greatly handicapped by the repeated solution of mixed integer nonlinear programs, the quality of L1-path, in terms of the two criteria---loss and sparsity--- in the estimation objective, is inferior to the capped L1-path; the latter can be obtained efficiently by a combination of a parametric pivoting-like scheme supplemented by an algorithm that takes advantage of the Z-matrix structure of the loss function.},
@@ -57,7 +78,7 @@
 
 @Article{han20202x2,
   author    = {Han, Shaoning and G{\'o}mez, Andr{\'e}s and Atamt{\"u}rk, Alper},
-  journal   = {Mathematical Programming, under major revision},
+  journal   = {Submitted},
   title     = {2x2 convexifications for convex quadratic optimization with indicator variables},
   year      = {2020},
   abstract  = {In this paper, we study the convex quadratic optimization problem with indicator variables. For the bivariate case, we describe the convex hull of the epigraph in the original space of variables, and also give a conic quadratic extended formulation. Then, using the convex hull description for the bivariate case as a building block, we derive an extended SDP relaxation for the general case. This new formulation is stronger than other SDP relaxations proposed in the literature for the problem, including Shor's SDP relaxation, the optimal perspective relaxation as well as the optimal rank-one relaxation. Computational experiments indicate that the proposed formulations are quite effective in reducing the integrality gap of the optimization problems.},
