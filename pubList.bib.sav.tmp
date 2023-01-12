@@ -1,3 +1,12 @@
+@Article{hzp2023simplex,
+  author    = {Han, Shaoning and Zhang, Xinyao and Pang, Jong-Shi},
+  journal   = {Submitted},
+  title     = {On the number of pivots of {D}antzig's simplex methods for linear and convex quadratic programs},
+  year      = {2023},
+  abstract  = {Refining and extending works by Ye and Kitahara-Mizuno, this paper presents new results on the number of pivots of simplex-type methods for solving linear programs of the Leontief kind, certain linear complementarity problems of the P kind, and nonnegative constrained convex quadratic programs. Our results contribute to the further understanding of the complexity and eciency of simplex-type methods for solving these problems.},
+  timestamp = {202301},
+}
+
 @Article{han2022polynomial,
   author    = {Han, Shaoning and G{\'o}mez, Andr{\'e}s and Pang, Jong-Shi},
   journal   = {Submitted},
@@ -18,11 +27,11 @@
   timestamp = {202208},
 }
 
-@Article{pang2021some,
+@Article{pang2022some,
   author    = {Pang, Jong-Shi and Han, Shaoning},
-  journal   = {Submitted},
+  journal   = {SIAM Journal on Optimization (accepted)},
   title     = {Some Strongly Polynomially Solvable Convex Quadratic Programs with Bounded Variables},
-  year      = {2021},
+  year      = {2022},
   abstract  = {This paper begins with a class of convex quadratic programs (QPs) with bounded variables solvable by the parametric principal pivoting algorithm with $\mathcal{O}(n^3)$ strongly polynomial complexity, where $n$ is the number of variables of the problem. Extension of the Hessian class is also discussed. Our research is motivated by a preprint [7] wherein the efficient solution of a quadratic program with a tridiagonal Hessian matrix in the quadratic objective is needed for the construction of a polynomial-time algorithm for solving an associated sparse variable selection problem. With the tridiagonal structure, the complexity of the QP algorithm reduces to $\mathcal{O}(n^2)$. Our strongly polynomiality results extend previous works of some strongly polynomially solvable linear complementarity problems with a P-matrix [9]; special cases of the extended results include weakly quasi-diagonally dominant problems in addition to the tridiagonal ones.},
   slide     = {slides/ios2022.pdf},
   timestamp = {202112},
@@ -61,4 +70,4 @@
   journal   = {Submitted},
   title     = {Comparing solution paths of sparse quadratic minimization with a {S}tieltjes matrix},
   year      = {2021},
-  abstract  = {This paper studies several solution paths of sparse quadratic minimization problems as a function of the weighing parameter of the bi-objective of estimation loss versus solution sparsity. Three such paths are considered: the "L0-path" where the discontinuous L0-function provides the exact sparsity count; the "L1-path" where the L1-function provides a convex surrogate of sparsity count; and the "capped L1-path" where the nonconvex nondifferentiable capped L1-function aims to enhance the L1-approximation. Serving different purposes, each of these three formulations is different from each other, both analytically and computationally. Our results deepen the understanding of (old and new)properties of the associated paths, highlight the pros, cons, and tradeoffs of these sparse optimization models, and provide numerical evidence to support the practical superiority of the capped L1-path. Our study of the capped L1-path is the first of its kind as the path pertains to computable directionally stationary (= strongly locally minimizing in this context, as opposed to globally optimal) solutions of a parametric nonconvex nondifferentiable optimization problem. Motivated by classical parametric quadratic programming theory and reinforced by modern statistical learning studies, both casting an exponential perspective in fully describing such solution paths, we also aim to address the question of whether some of them can be fully traced in strongly polynomial time in the problem dimensions. A major conclusion of 
+  abstract  = {This paper studies several solution paths of sparse quadratic minimization problems as a function of the weighing parameter of the bi-objective of estimation loss versus solution sparsity. Three such paths are considered: the "L0-path" where the discontinuous L0-function provides the exact sparsity count; the "L1-path" where the L1-function provides a convex surrogate of sparsity count; and the "capped L1-path" where the nonconvex nondifferentiable capped L1-function aims to enhance the L1-approximation. Serving different purposes, each of these three formulations is different from each other, both analytically and computationally. Our results deepen the understanding of (old and new)properties of the associated paths, highlight the pros, cons, an

@@ -1,9 +1,18 @@
+@Article{hzp2023simplex,
+  author    = {Han, Shaoning and Zhang, Xinyao and Pang, Jong-Shi},
+  journal   = {Submitted},
+  title     = {On the number of pivots of {D}antzig's simplex methods for linear and convex quadratic programs},
+  year      = {2023},
+  abstract  = {Refining and extending works by Ye and Kitahara-Mizuno, this paper presents new results on the number of pivots of simplex-type methods for solving linear programs of the Leontief kind, certain linear complementarity problems of the P kind, and nonnegative constrained convex quadratic programs. Our results contribute to the further understanding of the complexity and eciency of simplex-type methods for solving these problems.},
+  timestamp = {202301},
+}
+
 @Article{han2022polynomial,
   author    = {Han, Shaoning and G{\'o}mez, Andr{\'e}s and Pang, Jong-Shi},
   journal   = {Submitted},
   title     = {On polynomial-time solvability of combinatorial Markov random fields},
   year      = {2022},
-  abstract  = {The problem of inferring Markov random fields (MRFs) with a sparsity or robustness prior can be naturally modeled as a mixed-integer program. This motivates us to study a general class of convex submodular optimization problems with indicator variables, which we show to be polynomially solvable in this paper. The key insight is that, possibly after a suitable reformulation, indicator constraints preserve submodularity. Fast computations of the associated Lov ́asz extensions are also discussed under certain smoothness conditions, and can be implemented using only linear-algebraic operations in the case of quadratic objectives.},
+  abstract  = {The problem of inferring Markov random fields (MRFs) with a sparsity or robustness prior can be naturally modeled as a mixed-integer program. This motivates us to study a general class of convex submodular optimization problems with indicator variables, which we show to be polynomially solvable in this paper. The key insight is that, possibly after a suitable reformulation, indicator constraints preserve submodularity. Fast computations of the associated Lov\'asz extensions are also discussed under certain smoothness conditions, and can be implemented using only linear-algebraic operations in the case of quadratic objectives.},
   slide     = {slides/informs2022.pdf},
   timestamp = {202209},
   url       = {https://arxiv.org/abs/2209.13161},
@@ -18,11 +27,11 @@
   timestamp = {202208},
 }
 
-@Article{pang2021some,
+@Article{pang2022some,
   author    = {Pang, Jong-Shi and Han, Shaoning},
-  journal   = {Submitted},
+  journal   = {SIAM Journal on Optimization (accepted December 2022)},
   title     = {Some Strongly Polynomially Solvable Convex Quadratic Programs with Bounded Variables},
-  year      = {2021},
+  year      = {2022},
   abstract  = {This paper begins with a class of convex quadratic programs (QPs) with bounded variables solvable by the parametric principal pivoting algorithm with $\mathcal{O}(n^3)$ strongly polynomial complexity, where $n$ is the number of variables of the problem. Extension of the Hessian class is also discussed. Our research is motivated by a preprint [7] wherein the efficient solution of a quadratic program with a tridiagonal Hessian matrix in the quadratic objective is needed for the construction of a polynomial-time algorithm for solving an associated sparse variable selection problem. With the tridiagonal structure, the complexity of the QP algorithm reduces to $\mathcal{O}(n^2)$. Our strongly polynomiality results extend previous works of some strongly polynomially solvable linear complementarity problems with a P-matrix [9]; special cases of the extended results include weakly quasi-diagonally dominant problems in addition to the tridiagonal ones.},
   slide     = {slides/ios2022.pdf},
   timestamp = {202112},
@@ -68,7 +77,7 @@
 
 @Article{han2021single,
   author    = {Han, Shaoning and G{\'o}mez, Andr{\'e}s},
-  journal   = {In preparation},
+  journal   = {Technical Report},
   title     = {Single-neuron convexifications for binarized neural networks},
   year      = {2021},
   abstract  = {Binarized neural networks are an important class of neural network in deep learning due to their computational efficiency. This paper contributes towards a better understanding of the structure of binarized neural networks, specifically, ideal convex representations of the activation functions used. We describe the convex hull of the graph of the signum activation function associated with a single neuron, deriving closed forms for the convex and concave envelopes that improve upon those used in the literature. The new formulations lead to improved methods to verify the robustness of a binarized neural network via convex optimization.},
@@ -76,11 +85,11 @@
   url       = {http://www.optimization-online.org/DB_HTML/2021/05/8419.html},
 }
 
-@Article{han20202x2,
+@Article{han20222x2,
   author    = {Han, Shaoning and G{\'o}mez, Andr{\'e}s and Atamt{\"u}rk, Alper},
-  journal   = {Submitted},
+  journal   = {Mathematical Programming (accepted December 2022)},
   title     = {2x2 convexifications for convex quadratic optimization with indicator variables},
-  year      = {2020},
+  year      = {2022},
   abstract  = {In this paper, we study the convex quadratic optimization problem with indicator variables. For the bivariate case, we describe the convex hull of the epigraph in the original space of variables, and also give a conic quadratic extended formulation. Then, using the convex hull description for the bivariate case as a building block, we derive an extended SDP relaxation for the general case. This new formulation is stronger than other SDP relaxations proposed in the literature for the problem, including Shor's SDP relaxation, the optimal perspective relaxation as well as the optimal rank-one relaxation. Computational experiments indicate that the proposed formulations are quite effective in reducing the integrality gap of the optimization problems.},
   slide     = {slides/informs2020.pdf},
   timestamp = {2020},
