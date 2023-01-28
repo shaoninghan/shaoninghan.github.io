@@ -29,7 +29,7 @@
 
 @Article{pang2022some,
   author    = {Pang, Jong-Shi and Han, Shaoning},
-  journal   = {SIAM Journal on Optimization (accepted December 2022)},
+  journal   = {SIAM Journal on Optimization (accepted)},
   title     = {Some Strongly Polynomially Solvable Convex Quadratic Programs with Bounded Variables},
   year      = {2022},
   abstract  = {This paper begins with a class of convex quadratic programs (QPs) with bounded variables solvable by the parametric principal pivoting algorithm with $\mathcal{O}(n^3)$ strongly polynomial complexity, where $n$ is the number of variables of the problem. Extension of the Hessian class is also discussed. Our research is motivated by a preprint [7] wherein the efficient solution of a quadratic program with a tridiagonal Hessian matrix in the quadratic objective is needed for the construction of a polynomial-time algorithm for solving an associated sparse variable selection problem. With the tridiagonal structure, the complexity of the QP algorithm reduces to $\mathcal{O}(n^2)$. Our strongly polynomiality results extend previous works of some strongly polynomially solvable linear complementarity problems with a P-matrix [9]; special cases of the extended results include weakly quasi-diagonally dominant problems in addition to the tridiagonal ones.},
@@ -85,15 +85,18 @@
   url       = {http://www.optimization-online.org/DB_HTML/2021/05/8419.html},
 }
 
-@Article{han20222x2,
+@Article{HGA2023,
   author    = {Han, Shaoning and G{\'o}mez, Andr{\'e}s and Atamt{\"u}rk, Alper},
-  journal   = {Mathematical Programming (accepted December 2022)},
-  title     = {2x2 convexifications for convex quadratic optimization with indicator variables},
-  year      = {2022},
-  abstract  = {In this paper, we study the convex quadratic optimization problem with indicator variables. For the bivariate case, we describe the convex hull of the epigraph in the original space of variables, and also give a conic quadratic extended formulation. Then, using the convex hull description for the bivariate case as a building block, we derive an extended SDP relaxation for the general case. This new formulation is stronger than other SDP relaxations proposed in the literature for the problem, including Shor's SDP relaxation, the optimal perspective relaxation as well as the optimal rank-one relaxation. Computational experiments indicate that the proposed formulations are quite effective in reducing the integrality gap of the optimization problems.},
-  slide     = {slides/informs2020.pdf},
+  journal   = {Mathematical Programming},
+  title     = {2$\times$2-Convexifications for convex quadratic optimization with indicator variables},
+  year      = {2023},
+  issn      = {1436-4646},
+  month     = {Jan},
+  abstract  = {In this paper, we study the convex quadratic optimization problem with indicator variables. For the 2$\tiems$2 case, we describe the convex hull of the epigraph in the original space of variables, and also give a conic quadratic extended formulation. Then, using the convex hull description for the 2$\tiems$2 case as a building block, we derive an extended SDP relaxation for the general case. This new formulation is stronger than other SDP relaxations proposed in the literature for the problem, including the optimal perspective relaxation and the optimal rank-one relaxation. Computational experiments indicate that the proposed formulations are quite effective in reducing the integrality gap of the optimization problems.},
+  day       = {28},
+  doi       = {10.1007/s10107-023-01924-w},
   timestamp = {2020},
-  url       = {https://arxiv.org/abs/2004.07448},
+  url       = {https://doi.org/10.1007/s10107-023-01924-w},
 }
 
 @Article{han2019fractional,
