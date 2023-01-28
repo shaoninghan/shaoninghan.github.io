@@ -95,6 +95,7 @@
   abstract  = {In this paper, we study the convex quadratic optimization problem with indicator variables. For the 2$\tiems$2 case, we describe the convex hull of the epigraph in the original space of variables, and also give a conic quadratic extended formulation. Then, using the convex hull description for the 2$\tiems$2 case as a building block, we derive an extended SDP relaxation for the general case. This new formulation is stronger than other SDP relaxations proposed in the literature for the problem, including the optimal perspective relaxation and the optimal rank-one relaxation. Computational experiments indicate that the proposed formulations are quite effective in reducing the integrality gap of the optimization problems.},
   day       = {28},
   doi       = {10.1007/s10107-023-01924-w},
+  slide     = {slides/informs2020.pdf},
   timestamp = {2020},
   url       = {https://doi.org/10.1007/s10107-023-01924-w},
 }
