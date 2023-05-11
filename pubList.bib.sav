@@ -65,7 +65,7 @@
   url       = {https://arxiv.org/abs/2110.14884},
 }
 
-@Article{he2021comparing,
+@Article{he2023comparing,
   author    = {He, Ziyu and Han, Shaoning and G{\'o}mez, Andr{\'e}s and Cui, Ying and Pang, Jong-Shi},
   journal   = {Mathematical Programming},
   title     = {Comparing solution paths of sparse quadratic minimization with a {S}tieltjes matrix},
