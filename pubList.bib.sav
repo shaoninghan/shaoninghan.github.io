@@ -5,6 +5,7 @@
   year      = {2023},
   abstract  = {Refining and extending works by Ye and Kitahara-Mizuno, this paper presents new results on the number of pivots of simplex-type methods for solving linear programs of the Leontief kind, certain linear complementarity problems of the P kind, and nonnegative constrained convex quadratic programs. Our results contribute to the further understanding of the complexity and efficiency of simplex-type methods for solving these problems.},
   timestamp = {202301},
+  url       = {https://optimization-online.org/2023/05/on-the-number-of-pivots-of-dantzigs-simplex-methods-for-linear-and-convex-quadratic-programs/},
 }
 
 @Article{han2022polynomial,
@@ -29,13 +30,17 @@
 
 @Article{pang2022some,
   author    = {Pang, Jong-Shi and Han, Shaoning},
-  journal   = {SIAM Journal on Optimization (accepted)},
+  journal   = {SIAM Journal on Optimization},
   title     = {Some Strongly Polynomially Solvable Convex Quadratic Programs with Bounded Variables},
-  year      = {2022},
-  abstract  = {This paper begins with a class of convex quadratic programs (QPs) with bounded variables solvable by the parametric principal pivoting algorithm with $\mathcal{O}<span style="font-size: 1.4em;">(</span>n<sup>3</sup><span style="font-size: 1.4em;">)</span>$ strongly polynomial complexity, where $n$ is the number of variables of the problem. Extension of the Hessian class is also discussed. Our research is motivated by a preprint [7] wherein the efficient solution of a quadratic program with a tridiagonal Hessian matrix in the quadratic objective is needed for the construction of a polynomial-time algorithm for solving an associated sparse variable selection problem. With the tridiagonal structure, the complexity of the QP algorithm reduces to $\mathcal{O}<span style="font-size: 1.4em;">(</span>n<sup>2</sup><span style="font-size: 1.4em;">)</span>$. Our strongly polynomiality results extend previous works of some strongly polynomially solvable linear complementarity problems with a P-matrix [9]; special cases of the extended results include weakly quasi-diagonally dominant problems in addition to the tridiagonal ones.},
+  year      = {2023},
+  number    = {2},
+  pages     = {899-920},
+  volume    = {33},
+  abstract  = {This paper begins with a class of convex quadratic programs (QPs) with bounded variables solvable by the parametric principal pivoting algorithm with $\mathcal{O}<span style="font-size: 1.4em;">(</span>n<sup>3</sup><span style="font-size: 1.4em;">)</span>$ strongly polynomial complexity, where $n$ is the number of variables of the problem. Extensions of this Hessian class are the main contributions of this paper, which is motivated by a recent paper [P. Liu, S. Fattahi, A. Gómez, and S. Küçükyavuz, Math. Program. (2022), https://doi.org/10.1007/s10107-022-01845-0], wherein the efficient solution of a quadratic program with a tridiagonal Hessian matrix in the quadratic objective is needed for the construction of a polynomial-time algorithm for solving an associated sparse variable selection problem. With the tridiagonal structure, the complexity of the QP algorithm reduces to $\mathcal{O}<span style="font-size: 1.4em;">(</span>n<sup>2</sup><span style="font-size: 1.4em;">)</span>$. Our strongly polynomiality results extend previous works of some strongly polynomially solvable linear complementarity problems with a P-matrix [J. S. Pang and R. Chandrasekaran, Math. Program. Stud., 25 (1985), pp. 13–27]; special cases of the extended results include weakly quasi-diagonally dominant problems in addition to the tridiagonal ones.},
+  doi       = {10.1137/21M1463793},
   slide     = {slides/ios2022.pdf},
   timestamp = {202112},
-  url       = {https://arxiv.org/abs/2112.03886},
+  url       = {https://doi.org/10.1137/21M1463793},
 }
 
 @Article{han2021equiv,
