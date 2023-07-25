@@ -1,6 +1,19 @@
 # jemdoc:menu{MENU}{teaching.html}
 # jemdoc: nofooter
+= ISE 530: Optimization Methods for Analytics, Fall 2023
 
-= Teaching
-- Mixed-Integer Programming, TA
+= Basic Information 
+- *Instructor*: Shaoning Han (shaoning@usc.edu)
+- *Teaching assistant*: TBD
+- Lecture time: Tuesday 06:00PM-09:40PM
+- Lecture location: THH208
+- Office: TBD
+- Office hours: TBD
+
+= Course Description
+ISE 530 is a core course for *Master in Data Analytics*. Topics covered include: fundamentals of linear programming, integer programming, quadratic and nonlinear programming for analytics and data science problems. NOTE: Recommended Preparation: Multivariable calculus on the level of MATH 229, linear algebra on the level of MATH 245, computer programming on the level of ISE 150. Syllabus can be found here. 
+
+= Email Policy
+Do not expect immediate responses to emailed questions. I will try to respond to all emailed questions within 48 hours. For questions regarding homework, please contact the teaching assistant first.
+
 
