@@ -101,10 +101,10 @@
 
 @Article{han2021single,
   author    = {Han, Shaoning and G{\'o}mez, Andr{\'e}s},
-  journal   = {Technical Report},
   title     = {Single-neuron convexifications for binarized neural networks},
   year      = {2021},
   abstract  = {Binarized neural networks are an important class of neural network in deep learning due to their computational efficiency. This paper contributes towards a better understanding of the structure of binarized neural networks, specifically, ideal convex representations of the activation functions used. We describe the convex hull of the graph of the signum activation function associated with a single neuron, deriving closed forms for the convex and concave envelopes that improve upon those used in the literature. The new formulations lead to improved methods to verify the robustness of a binarized neural network via convex optimization.},
+  status    = {Technical Report},
   timestamp = {202105},
   url       = {http://www.optimization-online.org/DB_HTML/2021/05/8419.html},
 }
