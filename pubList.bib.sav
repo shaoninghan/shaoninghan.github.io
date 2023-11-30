@@ -32,11 +32,10 @@
 
 @Article{han2022continuous,
   author    = {Han, Shaoning and Pang, Jong-Shi},
-  journal   = {SIAM Journal on Optimization},
+  journal   = {SIAM Journal on Optimization (accepted)},
   title     = {Continuous Selections of Solutions to Parametric Variational Inequalities},
-  year      = {2022},
+  year      = {2023},
   abstract  = {This paper studies the existence of a (Lipschitz) continuous (single-valued) solution function of parametric variational inequalities under functional and constraint perturbations. At the most elementary level, this issue can be explained from classical parametric linear programming and its resolution by the parametric simplex method, which computes a solution trajectory of the problem when the objective coefficients and the right-hand sides of the constraints are parameterized by a single scalar parameter. The computed optimal solution vector (and not the optimal objective value) is a continuous piecewise affine function in the parameter when the objective coefficients are kept constant, whereas the computed solution vector can be discontinuous when the right-hand constraint coefficients are kept fixed and there is a basis change at a critical value of the parameter in the objective. We investigate this issue more broadly first in the context of an affine variational inequality (AVI) and obtain results that go beyond those pertaining to the lower semicontinuity of the solution map with joint vector perturbations; the latter property is closely tied to a stability theory of a parametric AVI and in particular to Robinson's seminal concept of strong regularity. Extensions to nonlinear variational inequalities is also investigated without requiring solution uniqueness (and therefore applicable to non-strongly regular problems). The role of solution uniqueness in this issue of continuous single-valued solution selection is further clarified.},
-  status    = {<b>Minor revision</b> under review at},
   timestamp = {202208},
   url       = {https://optimization-online.org/2023/09/continuous-selections-of-solutions-to-parametric-variational-inequalities},
 }
@@ -78,7 +77,7 @@
   title     = {Compact extended formulations for low-rank functions with indicator variables},
   year      = {2023},
   abstract  = {We study the mixed-integer epigraph of a low-rank convex function with non-convex indicator constraints, which are often used to impose logical constraints on the support of the solutions. Extended formulations describing the convex hull of such sets can easily be constructed via disjunctive programming, although a direct application of this method often yields prohibitively large formulations, whose size is exponential in the number of variables. In this paper, we propose a new disjunctive representation of the sets under study, which leads to compact formulations with size exponential in the rank of the function, but polynomial in the number of variables. Moreover, we show how to project out the additional variables for the case of rank-one functions, recovering or generalizing known results for the convex hulls of such sets (in the original space of variables).},
-  remark    = {Finalist (top 10%), INFORMS Junior Faculty Interest Group (JFIG) Paper Competition, 2023},
+  remark    = {Third Place, INFORMS Junior Faculty Interest Group (JFIG) Paper Competition, 2023},
   slide     = {slides/iccopt2022.pdf},
   status    = {<b>Major revision</b> under reviw at},
   timestamp = {202110},
