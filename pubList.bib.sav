@@ -21,12 +21,15 @@
 
 @Article{hzp2023simplex,
   author    = {Han, Shaoning and Zhang, Xinyao and Pang, Jong-Shi},
-  journal   = {Operations Research Letters (Accepted)},
+  journal   = {Operations Research Letters},
   title     = {On the number of pivots of {D}antzig's simplex methods for linear and convex quadratic programs},
   year      = {2024},
-  abstract  = {Refining and extending works by Ye and Kitahara-Mizuno, this paper presents new results on the number of pivots of simplex-type methods for solving linear programs of the Leontief kind, certain linear complementarity problems of the P kind, and nonnegative constrained convex quadratic programs. Our results contribute to the further understanding of the complexity and efficiency of simplex-type methods for solving these problems.},
+  issn      = {0167-6377},
+  abstract  = {Refining and extending works by Ye and Kitahara-Mizuno, this paper presents new results on the number of pivots of simplex-type methods for solving linear programs of the Leontief kind, certain linear complementarity problems of the P kind, and nonnegatively constrained convex quadratic programs. Our results contribute to the further understanding of the complexity and efficiency of simplex-type methods for solving these problems. Two applications of the quadratic programming results are presented.},
+  doi       = {https://doi.org/10.1016/j.orl.2024.107091},
+  keywords  = {Simplex methods, Linear programs, Linear complementarity problems, Convex quadratic programs, Iteration complexity, Leontief matrices},
   timestamp = {202301},
-  url       = {https://optimization-online.org/2023/05/on-the-number-of-pivots-of-dantzigs-simplex-methods-for-linear-and-convex-quadratic-programs/},
+  url       = {https://www.sciencedirect.com/science/article/pii/S0167637724000270},
 }
 
 @Article{han2022polynomial,
