@@ -2,5 +2,5 @@
 # jemdoc: nofooter
 # jemdoc: addcss{jemdoc.css}
 # jemdoc: addcss{bibtex.css}
-= Publication
+= Publications
 #includeraw{pubList.html}
