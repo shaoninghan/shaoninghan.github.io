@@ -1,3 +1,13 @@
+@Article{ghl2024realtime,
+  author    = {G{\'o}mez, Andr{\'e}s and Han, Shaoning and Lozano, Leonardo},
+  title     = {Real-Time Solution of Quadratic Optimization Problems with Banded Matrices and Indicator Variables},
+  year      = {2024},
+  abstract  = {We consider mixed-integer quadratic optimization problems with banded matrices and indicator variables. These problems arise pervasively in statistical inference problems with time-series data, where the banded matrix captures the temporal relationship of the underlying process. In particular, the problem studied arises in monitoring problems, where the decision-maker wants to detect changes or anomalies. We propose to solve these problems using decision diagrams. In particular we show how to exploit the temporal dependencies to construct diagrams with size polynomial in the number of decision variables. We also describe how to construct the convex hull of the set under study from the decision diagrams, and how to deploy the method online to solve the problems in milliseconds via a shortest path algorithm.},
+  status    = {Submitted},
+  timestamp = {202405},
+  url       = {https://arxiv.org/abs/2405.03051},
+}
+
 @Article{cgh2024robust,
   author    = {Cepeda, Valentina and G\'omez, Andr\'es and Han, Shaoning},
   title     = {Robust Support Vector Machines via Conic Optimization},
