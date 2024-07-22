@@ -1,4 +1,4 @@
-# jemdoc: menu{MENU}{index.html}
+# jemdoc: menu{MENU}{publication.html}
 # jemdoc: nofooter
 # jemdoc: addcss{jemdoc.css}
 # jemdoc: addcss{bibtex.css}
