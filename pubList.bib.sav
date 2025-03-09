@@ -1,3 +1,14 @@
+@Article{zhp2025pip,
+  author    = {Zhang, Xinyao and Han, Shaoning and Pang, Jong-Shi},
+  journal   = {Operations Research Letters},
+  title     = {Improving the Solution of Indefinite Quadratic Programs and Linear Programs with Complementarity Constraints by a Progressive MIP Method},
+  year      = {2025},
+  abstract  = {Indefinite quadratic programs (QPs) are known to be very difficult to be solved to global optimality, so are linear programs with linear complementarity constraints. Treating the former as a subclass of the latter, this paper presents a progressive mixed integer linear programming method for solving a general linear program with linear complementarity constraints (LPCC). Instead of solving the LPCC with a full set of integer variables expressing the complementarity conditions, the presented method solves a finite number of mixed integer subprograms by starting with a small fraction of integer variables and progressively increasing this fraction. After describing the PIP (for progressive integer programming) method and its various implementations, we demonstrate, via an extensive set of computational experiments, the superior performance of the progressive approach over the direct solution of the full-integer formulation of the LPCCs. It is also shown that the solution obtained at the termination of the PIP method is a local minimizer of the LPCC, a property that cannot be claimed by any known non-enumerative method for solving this nonconvex program. In all the experiments, the PIP method is initiated at a feasible solution of the LPCC obtained from a nonlinear programming solver, and with high likelihood, can successfully improve it. Thus, the PIP method can improve a stationary solution of an indefinite QP, something that is not likely to be achievable by a nonlinear programming method. Finally, some analysis is presented that provides a better understanding of the roles of the LPCC suboptimal solutions in the local optimality of the indefinite QP.},
+  keywords  = {Nonconvex quadratic programming, Linear programs with complementarity constraints, Improving stationarity solutions, Progressive integer programming},
+  timestamp = {202409},
+  url       = {https://www.arxiv.org/pdf/2409.09964},
+}
+
 @Article{ghl2024realtime,
   author    = {G{\'o}mez, Andr{\'e}s and Han, Shaoning and Lozano, Leonardo},
   title     = {Real-Time Solution of Quadratic Optimization Problems with Banded Matrices and Indicator Variables},
@@ -20,12 +31,12 @@
 
 @Article{hcp2023nonlsc,
   author    = {Han, Shaoning and Cui, Ying and Pang, Jong-Shi},
-  journal   = {Mathematics of Operations Research (Accepted)},
+  journal   = {Mathematics of Operations Research},
   title     = {Analysis of a Class of Minimization Problems Lacking Lower Semicontinuity},
   year      = {2024},
   abstract  = {The minimization of non-lower semicontinuous functions is a difficult topic that has been minimally studied.  Among such functions is a Heaviside composite function that is the composition of a Heaviside function with a possibly nonsmooth multivariate function.  Unifying a statistical estimation problem with hierarchical selection of variables and a sample average approximation of composite chance constrained stochastic programs, a Heaviside composite optimization problem is one whose objective and constraints are defined by sums of possibly nonlinear multiples of such composite functions. Via a pulled-out formulation, a pseudo stationarity concept for a feasible point was introduced in an earlier work as a necessary condition for a local minimizer of a Heaviside composite optimization problem.  The present paper extends this previous study in several directions: (a) showing that pseudo stationarity is implied by, thus weaker than, a sharper subdifferential based stationarity condition which we term epi-stationarity; (b) introducing a set-theoretic sufficient condition, which we term local convexity-like property, under which an epi-stationary point of a possibly non-lower semicontinuous optimization problem is a local minimizer; (c) providing several classes of Heaviside composite functions satisfying this local convexity-like property; (d) extending the epigraphical formulation of a nonnegative multiple of a Heaviside composite function to a lifted formulation for arbitrarily signed multiples of the Heaviside composite function, based on which we show that an epi-stationary solution of the given Heaviside composite program with broad classes of B-differentiable component functions can in principle be approximately computed by surrogation methods.},
   timestamp = {202309},
-  url       = {https://optimization-online.org/2023/10/analysis-of-a-class-of-minimization-problems-lacking-lower-semicontinuity},
+  url       = {https://pubsonline.informs.org/doi/abs/10.1287/moor.2023.0295},
 }
 
 @Article{hzp2023simplex,
