@@ -1,14 +1,3 @@
-@Article{Zhang2025,
-  author    = {Zhang, Xinyao and Han, Shaoning and Pang, Jong-Shi},
-  title     = {Improving the Solution of Indefinite Quadratic Programs and Linear Programs with Complementarity Constraints by a Progressive MIP Method},
-  year      = {2025},
-  abstract  = {Indefinite quadratic programs (QPs) are known to be very difficult to be solved to global optimality, so are linear programs with linear complementarity constraints. Treating the former as a subclass of the latter, this paper presents a progressive mixed integer linear programming method for solving a general linear program with linear complementarity constraints (LPCC). Instead of solving the LPCC with a full set of integer variables expressing the complementarity conditions, the presented method solves a finite number of mixed integer subprograms by starting with a small fraction of integer variables and progressively increasing this fraction. After describing the PIP (for progressive integer programming) method and its various implementations, we demonstrate, via an extensive set of computational experiments, the superior performance of the progressive approach over the direct solution of the full-integer formulation of the LPCCs. It is also shown that the solution obtained at the termination of the PIP method is a local minimizer of the LPCC, a property that cannot be claimed by any known non-enumerative method for solving this nonconvex program. In all the experiments, the PIP method is initiated at a feasible solution of the LPCC obtained from a nonlinear programming solver, and with high likelihood, can successfully improve it. Thus, the PIP method can improve a stationary solution of an indefinite QP, something that is not likely to be achievable by a nonlinear programming method. Finally, some analysis is presented that provides a better understanding of the roles of the LPCC suboptimal solutions in the local optimality of the indefinite QP.},
-  keywords  = {Nonconvex quadratic programming, Linear programs with complementarity constraints, Improving stationarity solutions, Progressive integer programming},
-  status    = {Submitted},
-  timestamp = {202409},
-  url       = {https://www.arxiv.org/pdf/2409.09964},
-}
-
 @Article{Gomez2024,
   author    = {G{\'o}mez, Andr{\'e}s and Han, Shaoning and Lozano, Leonardo},
   title     = {Real-Time Solution of Quadratic Optimization Problems with Banded Matrices and Indicator Variables},
@@ -17,16 +6,6 @@
   status    = {Submitted},
   timestamp = {202405},
   url       = {https://arxiv.org/abs/2405.03051},
-}
-
-@Article{Choi2025,
-  author    = {Choi, Soobin and Cepeda, Valentina and G\'omez, Andr\'es and Han, Shaoning},
-  title     = {Rank-one convexification for quadratic optimization problems with step function penalties},
-  year      = {2025},
-  abstract  = {We investigate convexification for convex quadratic optimization with step function penalties. Such problems can be cast as mixed-integer quadratic optimization problems, where binary variables are used to encode the non-convex step function. First, we derive the convex hull for the epigraph of a quadratic function defined by a rank-one matrix and step function penalties. Using this rank-one convexification, we develop copositive and semi-definite relaxations for general convex quadratic functions. Leveraging these findings, we construct convex formulations to the support vector machine problem with 0–1 loss and show that they yield robust estimators in settings with anomalies and outliers.},
-  status    = {Submitted},
-  timestamp = {202401},
-  url       = {https://arxiv.org/pdf/2504.16330},
 }
 
 @Article{Han2024,
@@ -51,17 +30,6 @@
   slide     = {slides/ios2024Xinyao.pdf},
   timestamp = {202301},
   url       = {https://www.sciencedirect.com/science/article/pii/S0167637724000270},
-}
-
-@Article{Han2022,
-  author    = {Han, Shaoning and G{\'o}mez, Andr{\'e}s and Pang, Jong-Shi},
-  title     = {On Polynomial-Time Solvability of Combinatorial Markov Random Fields},
-  year      = {2022},
-  abstract  = {The problem of inferring Markov random fields (MRFs) with a sparsity or robustness prior can be naturally modeled as a mixed-integer program. This motivates us to study a general class of convex submodular optimization problems with indicator variables, which we show to be polynomially solvable in this paper. The key insight is that, possibly after a suitable reformulation, indicator constraints preserve submodularity. Fast computations of the associated Lov\'asz extensions are also discussed under certain smoothness conditions, and can be implemented using only linear-algebraic operations in the case of quadratic objectives.},
-  slide     = {slides/ios2024.pdf},
-  status    = {Submitted},
-  timestamp = {202209},
-  url       = {https://arxiv.org/abs/2209.13161},
 }
 
 @Article{Han2024b,
@@ -189,6 +157,38 @@
   authororder = {[alphabetical order]},
   timestamp   = {2018},
   url         = {https://www.jmlr.org/papers/volume22/18-745/18-745.pdf},
+}
+
+@Article{Zhang2025,
+  author    = {Zhang, Xinyao and Han, Shaoning and Pang, Jong-Shi},
+  title     = {Improving the Solution of Indefinite Quadratic Programs and Linear Programs with Complementarity Constraints by a Progressive MIP Method},
+  year      = {2025},
+  abstract  = {Indefinite quadratic programs (QPs) are known to be very difficult to be solved to global optimality, so are linear programs with linear complementarity constraints. Treating the former as a subclass of the latter, this paper presents a progressive mixed integer linear programming method for solving a general linear program with linear complementarity constraints (LPCC). Instead of solving the LPCC with a full set of integer variables expressing the complementarity conditions, the presented method solves a finite number of mixed integer subprograms by starting with a small fraction of integer variables and progressively increasing this fraction. After describing the PIP (for progressive integer programming) method and its various implementations, we demonstrate, via an extensive set of computational experiments, the superior performance of the progressive approach over the direct solution of the full-integer formulation of the LPCCs. It is also shown that the solution obtained at the termination of the PIP method is a local minimizer of the LPCC, a property that cannot be claimed by any known non-enumerative method for solving this nonconvex program. In all the experiments, the PIP method is initiated at a feasible solution of the LPCC obtained from a nonlinear programming solver, and with high likelihood, can successfully improve it. Thus, the PIP method can improve a stationary solution of an indefinite QP, something that is not likely to be achievable by a nonlinear programming method. Finally, some analysis is presented that provides a better understanding of the roles of the LPCC suboptimal solutions in the local optimality of the indefinite QP.},
+  keywords  = {Nonconvex quadratic programming, Linear programs with complementarity constraints, Improving stationarity solutions, Progressive integer programming},
+  status    = {Forthcoming in Mathematical Programming Computation},
+  timestamp = {202409},
+  url       = {https://www.arxiv.org/pdf/2409.09964},
+}
+
+@Article{Cepeda2024,
+  author    = {Cepeda, Valentina and G\'omez, Andr\'es and Han, Shaoning},
+  title     = {Robust Support Vector Machines via Conic Optimization},
+  year      = {2024},
+  abstract  = {We consider the problem of learning support vector machines robust to uncertainty. It has been established in the literature that typical loss functions, including the hinge loss, are sensible to data perturbations and outliers, thus performing poorly in the setting considered. In contrast, using the 0-1 loss or a suitable non-convex approximation results in robust estimators, at the expense of large computational costs. In this paper we use mixed-integer optimization techniques to derive a new loss function that better approximates the 0-1 loss compared with existing alternatives, while preserving the convexity of the learning problem. In our computational results, we show that the proposed estimator is competitive with the standard SVMs with the hinge loss in outlier-free regimes and better in the presence of outliers.},
+  status    = {Submitted},
+  timestamp = {202401},
+  url       = {https://optimization-online.org/2024/02/robust-support-vector-machines-via-conic-optimization},
+}
+
+@Article{HanGomez2025,
+  author    = {Han, Shaoning and G{\'o}mez, Andr{\'e}s},
+  title     = {Convex Submodular Minimization with Indicator Variables},
+  year      = {2025},
+  abstract  = {We study a general class of convex submodular optimization problems with indicator variables. Many applications such as the problem of inferring Markov random fields (MRFs) with a sparsity or robustness prior can be naturally modeled in this form. We show that these problems can be reduced to binary submodular minimization problems, possibly after a suitable reformulation, and thus are strongly polynomially solvable. Furthermore, we develop a parametric approach for computing the associated extreme bases under certain smoothness conditions. This leads to a fast solution method, whose efficiency is demonstrated through numerical experiments.},
+  slide     = {slides/ios2024.pdf},
+  status    = {Submitted},
+  timestamp = {202209},
+  url       = {https://arxiv.org/abs/2209.13161},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
