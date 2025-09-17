@@ -1,0 +1,20 @@
+# jemdoc:menu{MENU}{MA5243.html}
+# jemdoc: nofooter
+= MA 5243: Advanced Mathematical Programming, Fall 2024
+
+== Basic Information 
+- *Instructor*: [https://shaoninghan.github.io/ Shaoning Han] (shaoninghan@nus.edu.sg)
+- *Grader*: Zhiyuan Ma (E0983565@u.nus.edu)
+- Lecture time: Wednesday and Friday 02:00PM-04:00PM
+- Lecture location: Lecture Theatre (LT) 33
+- Office hours: by appointment
+
+== Course Description
+MA5243 is a 4-unit course designed for Ph.D. students in mathematics. The goal of this course is to establish the mathematical foundations of general continuous optimization problems. It covers a variety of topics: Introduction to convex analysis; Optimality conditions; Lagrangian duality; Classical nonlinear programming algorithms including line search methods, Newton methods, trust-region methods, sequential QP, penalty, barrier and augmented Lagrangian methods; First-order methods for nonsmooth convex optimization problems. Most lectures are based on course notes. There is *no* required textbook, but homework assignments are drawn from reference books.
+== Syllabus
+[teaching/syllabus_ma5243fall2024.pdf Syllabus]
+
+== Email Policy
+Do not expect immediate responses to emailed questions. I will try to respond to all emailed questions within 48 hours. Try to keep your email short and direct. For questions regarding homework, please contact the [mailto:E0983565@u.nus.edu grader] first.
+
+
