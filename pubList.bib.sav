@@ -3,8 +3,8 @@
   title     = {Real-Time Solution of Quadratic Optimization Problems with Banded Matrices and Indicator Variables},
   year      = {2024},
   abstract  = {We consider mixed-integer quadratic optimization problems with banded matrices and indicator variables. These problems arise pervasively in statistical inference problems with time-series data, where the banded matrix captures the temporal relationship of the underlying process. In particular, the problem studied arises in monitoring problems, where the decision-maker wants to detect changes or anomalies. We propose to solve these problems using decision diagrams. In particular we show how to exploit the temporal dependencies to construct diagrams with size polynomial in the number of decision variables. We also describe how to construct the convex hull of the set under study from the decision diagrams, and how to deploy the method online to solve the problems in milliseconds via a shortest path algorithm.},
-  slide     = {slides/NUSRI.pdf},
-  status    = {Submitted},
+  slide     = {slides/NUSRI2025.pdf},
+  status    = {Preprint},
   timestamp = {202405},
   url       = {https://arxiv.org/abs/2405.03051},
 }
@@ -148,17 +148,16 @@
 }
 
 @Article{Atamtuerk2021,
-  author      = {Atamt{\"u}rk, Alper and G{\'o}mez, Andr{\'e}s and Han, Shaoning},
-  journal     = {Journal of Machine Learning Research},
-  title       = {Sparse and Smooth Signal Estimation: Convexification of {\ell}<sub>0</sub>-Formulations},
-  year        = {2021},
-  number      = {52},
-  pages       = {1--43},
-  volume      = {22},
-  abstract    = {Signal estimation problems with smoothness and sparsity priors can be naturally modeled as quadratic optimization with {\ell}<sub>0</sub>-``norm" constraints. Since such problems are non-convex and hard-to-solve, the standard approach is, instead, to tackle their convex surrogates based on {\ell}<sub>1</sub>-norm relaxations. In this paper, we propose new iterative conic quadratic relaxations that exploit not only the {\ell}<sub>0</sub>-``norm" terms, but also the fitness and smoothness functions. The iterative convexification approach substantially closes the gap between the {\ell}<sub>0</sub>-``norm" and its {\ell}<sub>1</sub> surrogate. Experiments using an off-the-shelf conic quadratic solver on synthetic as well as real datasets indicate that the proposed iterative convex relaxations lead to significantly better estimators than {\ell}<sub>1</sub>-norm while preserving the computational efficiency. In addition, the parameters of the model and the resulting estimators are easily interpretable.},
-  authororder = {[alphabetical order]},
-  timestamp   = {2018},
-  url         = {https://www.jmlr.org/papers/volume22/18-745/18-745.pdf},
+  author    = {Atamt{\"u}rk, Alper and G{\'o}mez, Andr{\'e}s and Han, Shaoning},
+  journal   = {Journal of Machine Learning Research},
+  title     = {Sparse and Smooth Signal Estimation: Convexification of {\ell}<sub>0</sub>-Formulations},
+  year      = {2021},
+  number    = {52},
+  pages     = {1--43},
+  volume    = {22},
+  abstract  = {Signal estimation problems with smoothness and sparsity priors can be naturally modeled as quadratic optimization with {\ell}<sub>0</sub>-``norm" constraints. Since such problems are non-convex and hard-to-solve, the standard approach is, instead, to tackle their convex surrogates based on {\ell}<sub>1</sub>-norm relaxations. In this paper, we propose new iterative conic quadratic relaxations that exploit not only the {\ell}<sub>0</sub>-``norm" terms, but also the fitness and smoothness functions. The iterative convexification approach substantially closes the gap between the {\ell}<sub>0</sub>-``norm" and its {\ell}<sub>1</sub> surrogate. Experiments using an off-the-shelf conic quadratic solver on synthetic as well as real datasets indicate that the proposed iterative convex relaxations lead to significantly better estimators than {\ell}<sub>1</sub>-norm while preserving the computational efficiency. In addition, the parameters of the model and the resulting estimators are easily interpretable.},
+  timestamp = {2018},
+  url       = {https://www.jmlr.org/papers/volume22/18-745/18-745.pdf},
 }
 
 @Article{Zhang2025,
@@ -177,7 +176,7 @@
   title     = {Robust Support Vector Machines via Conic Optimization},
   year      = {2024},
   abstract  = {We consider the problem of learning support vector machines robust to uncertainty. It has been established in the literature that typical loss functions, including the hinge loss, are sensible to data perturbations and outliers, thus performing poorly in the setting considered. In contrast, using the 0-1 loss or a suitable non-convex approximation results in robust estimators, at the expense of large computational costs. In this paper we use mixed-integer optimization techniques to derive a new loss function that better approximates the 0-1 loss compared with existing alternatives, while preserving the convexity of the learning problem. In our computational results, we show that the proposed estimator is competitive with the standard SVMs with the hinge loss in outlier-free regimes and better in the presence of outliers.},
-  status    = {Submitted},
+  status    = {Preprint},
   timestamp = {202401},
   url       = {https://optimization-online.org/2024/02/robust-support-vector-machines-via-conic-optimization},
 }
@@ -188,7 +187,7 @@
   year      = {2025},
   abstract  = {We study a general class of convex submodular optimization problems with indicator variables. Many applications such as the problem of inferring Markov random fields (MRFs) with a sparsity or robustness prior can be naturally modeled in this form. We show that these problems can be reduced to binary submodular minimization problems, possibly after a suitable reformulation, and thus are strongly polynomially solvable. Furthermore, we develop a parametric approach for computing the associated extreme bases under certain smoothness conditions. This leads to a fast solution method, whose efficiency is demonstrated through numerical experiments.},
   slide     = {slides/ios2024.pdf},
-  status    = {Submitted},
+  status    = {Preprint},
   timestamp = {202209},
   url       = {https://arxiv.org/abs/2209.13161},
 }
@@ -197,11 +196,11 @@
   author    = {Han, Shaoning and Li, Liangju and Li, Yongchun},
   title     = {A Geometric Perspective on Polynomially Solvable Convex Maximization},
   year      = {2026},
-  abstract  = {Convex maximization arises in many applications but is generally NP-hard, even for low-rank objectives. This paper introduces a set of broadly applicable conditions that certify when such problems are polynomially solvable. Our main condition is a new property of the feasible set, which we term co-monotonicity. We show that this property holds for two important families: matroids and permutation-invariant sets. Under co-monotonicity and mild additional assumptions, we develop a geometric framework that generates polynomially many candidate solutions, one of which is optimal. This yields a polynomial-time algorithm. We further derive substantially sharper complexity bounds when the feasible set is permutation-invariant. Our framework recovers existing tractable instances and often improves their complexity. It also expands the frontier of tractability by providing the first polynomial-time guarantees for new applications.},
+  abstract  = {Convex maximization encompasses a broad class of optimization problems and is generally NP-hard, even for low-rank objectives. While polynomial solvability has been established for several important special cases, a broader structural understanding for mixed-integer settings remains limited. In this paper, we study this question from a geometric perspective and identify a structural property of the feasible region underlying tractability, which we term comonotonicity. Under comonotonicity and mild additional conditions, we develop a unified enumerative framework showing that fixed-rank convex maximization is polynomially solvable. This viewpoint recovers known results such as convex matroid maximization and also covers mixed-integer applications that previously required separate analyses. For the more structured class of standard comonotone sets, we further refine the analysis in a suitably enlarged parameter space and obtain a square-root improvement in the complexity bound. Applications to several PCA-related problems illustrate the broad applicability and effectiveness of the proposed framework.},
   slide     = {slides/ios2026.pdf},
-  status    = {Submitted},
+  status    = {Preprint},
   timestamp = {202602},
-  url       = {https://optimization-online.org/wp-content/uploads/2026/01/optimization-online-202601.pdf},
+  url       = {https://optimization-online.org/2026/01/a-geometric-perspective-on-polynomially-solvable-convex-maximization},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
