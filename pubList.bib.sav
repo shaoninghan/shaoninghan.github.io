@@ -121,7 +121,7 @@
 @Article{Han2023,
   author    = {Han, Shaoning and G{\'o}mez, Andr{\'e}s and Atamt{\"u}rk, Alper},
   journal   = {Mathematical Programming},
-  title     = {2$\times$2-Convexifications For Convex Quadratic Optimization with Indicator Variables},
+  title     = {2$\times$2-Convexifications for Convex Quadratic Optimization with Indicator Variables},
   year      = {2023},
   issn      = {1436-4646},
   pages     = {95--134},
@@ -172,13 +172,13 @@
 }
 
 @Article{Cepeda2024,
-  author    = {Cepeda, Valentina and G\'omez, Andr\'es and Han, Shaoning},
-  title     = {Robust Support Vector Machines via Conic Optimization},
-  year      = {2024},
+  author    = {Choi, Soobin and Cepeda, Valentina and G\'omez, Andr\'es and Han, Shaoning},
+  journal   = {INFORMS Journal on Optimization},
+  title     = {Rank-One Convexification for Quadratic Optimization Problems with Switching Constraints},
+  year      = {2026},
   abstract  = {We consider the problem of learning support vector machines robust to uncertainty. It has been established in the literature that typical loss functions, including the hinge loss, are sensible to data perturbations and outliers, thus performing poorly in the setting considered. In contrast, using the 0-1 loss or a suitable non-convex approximation results in robust estimators, at the expense of large computational costs. In this paper we use mixed-integer optimization techniques to derive a new loss function that better approximates the 0-1 loss compared with existing alternatives, while preserving the convexity of the learning problem. In our computational results, we show that the proposed estimator is competitive with the standard SVMs with the hinge loss in outlier-free regimes and better in the presence of outliers.},
-  status    = {Preprint},
   timestamp = {202401},
-  url       = {https://optimization-online.org/2024/02/robust-support-vector-machines-via-conic-optimization},
+  url       = {https://arxiv.org/abs/2504.16330v1},
 }
 
 @Article{HanGomez2025,
@@ -213,7 +213,7 @@
   url       = {https://optimization-online.org/2026/08/convexification-of-mixed-integer-quadratic-optimization-via-decision-diagrams/},
 }
 
-@Article{HanLiLi2026,
+@Article{LiHan2026,
   author    = {Li, Liangju and Han, Shaoning},
   title     = {Nonlinear Optimization over Trees with Binary Coupling Decisions},
   year      = {2026},
